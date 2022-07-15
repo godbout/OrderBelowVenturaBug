@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct OrderBelowBugVenturaApp: App {
+    
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+    var window: NSWindow = {
+        let window = NSWindow(contentRect: NSRect(), styleMask: [], backing: .buffered, defer: true)
+        
+        window.backgroundColor = .black
+        window.ignoresMouseEvents = true
+        window.collectionBehavior = [.transient]
+        
+        return window
+    }()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(window: window)
         }
     }
 }

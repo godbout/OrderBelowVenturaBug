@@ -11,6 +11,7 @@
 		911237CD28818893000FD99B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911237CC28818893000FD99B /* ContentView.swift */; };
 		911237CF28818895000FD99B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911237CE28818895000FD99B /* Assets.xcassets */; };
 		911237D228818895000FD99B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911237D128818895000FD99B /* Preview Assets.xcassets */; };
+		911237DA288197AD000FD99B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911237D9288197AD000FD99B /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		911237CE28818895000FD99B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911237D128818895000FD99B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		911237D328818895000FD99B /* OrderBelowBugVentura.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrderBelowBugVentura.entitlements; sourceTree = "<group>"; };
+		911237D9288197AD000FD99B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				911237CA28818893000FD99B /* OrderBelowBugVenturaApp.swift */,
+				911237D9288197AD000FD99B /* AppDelegate.swift */,
 				911237CC28818893000FD99B /* ContentView.swift */,
 				911237CE28818895000FD99B /* Assets.xcassets */,
 				911237D328818895000FD99B /* OrderBelowBugVentura.entitlements */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911237DA288197AD000FD99B /* AppDelegate.swift in Sources */,
 				911237CD28818893000FD99B /* ContentView.swift in Sources */,
 				911237CB28818893000FD99B /* OrderBelowBugVenturaApp.swift in Sources */,
 			);
@@ -270,7 +274,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OrderBelowBugVentura/Preview Content\"";
-				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -279,6 +283,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mo.com.sleeplessmind.OrderBelowBugVentura;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,7 +302,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OrderBelowBugVentura/Preview Content\"";
-				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -306,6 +311,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mo.com.sleeplessmind.OrderBelowBugVentura;
 				PRODUCT_NAME = "$(TARGET_NAME)";
